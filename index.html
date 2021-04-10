@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper-weather">
+      <h1>Weather Forecast</h1>
+
+      <div class="box-search">
+        <input
+          type="text"
+          class="searchBox"
+          placeholder="Type city name here"
+        />
+        <div class="icon-search"><i class="fas fa-search"></i></div>
+      </div>
+
+      <div class="box-results">
+        <div class="name-location">
+          <span class="name-city"></span>
+          <span class="name-country"></span>
+        </div>
+        <div class="temp-location">
+          <span class="degree"></span>
+          <span class="temp-type"></span>
+          <div class="img-forecast"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
