@@ -3,7 +3,7 @@ const api = {
   baseUrl: "https://api.openweathermap.org/data/2.5/",
 };
 
-// ELEMENTS BOX RESULTS
+// ELEMENTS BOX RESULTS --
 const nameCity = document.querySelector(".name-city");
 const nameState = document.querySelector(".name-state");
 const nameCountry = document.querySelector(".name-country");
@@ -11,7 +11,7 @@ const degrees = document.querySelector(".degree");
 const tempType = document.querySelector(".temp-type");
 const boxImgForecast = document.querySelector(".img-forecast");
 
-// TRIGGERS SEARCH
+// TRIGGERS SEARCH --
 const searchBox = document.querySelector(".searchBox");
 searchBox.addEventListener("keypress", search);
 
@@ -38,7 +38,7 @@ function getQuery(query) {
     });
 }
 
-// GENERATE IMG
+// GENERATE IMG --
 class CreateImage {
   constructor() {
     this.iconUrl = `http://openweathermap.org/img/w/`;
